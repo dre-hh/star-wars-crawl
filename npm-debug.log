@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.1.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@3.3.12
+3 info using node@v5.1.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle electron-quick-start@1.0.0~prestart: electron-quick-start@1.0.0
+6 silly lifecycle electron-quick-start@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle electron-quick-start@1.0.0~start: electron-quick-start@1.0.0
+8 verbose lifecycle electron-quick-start@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle electron-quick-start@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/andreas.winschu/projects/star-wars-crawl/node_modules/.bin:/Users/andreas.winschu/.rvm/gems/ruby-2.2.3/bin:/Users/andreas.winschu/.rvm/gems/ruby-2.2.3@global/bin:/Users/andreas.winschu/.rvm/rubies/ruby-2.2.3/bin:/Users/andreas.winschu/perl5/perlbrew/bin:/Users/andreas.winschu/perl5/perlbrew/perls/perl-5.20.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Users/andreas.winschu/bin:/Users/andreas.winschu/.rvm/bin
+10 verbose lifecycle electron-quick-start@1.0.0~start: CWD: /Users/andreas.winschu/projects/star-wars-crawl
+11 silly lifecycle electron-quick-start@1.0.0~start: Args: [ '-c', 'electron main.js' ]
+12 verbose stack Error: write EPIPE
+12 verbose stack     at Object.exports._errnoException (util.js:856:11)
+12 verbose stack     at exports._exceptionWithHostPort (util.js:879:20)
+12 verbose stack     at WriteWrap.afterWrite (net.js:763:14)
+13 verbose cwd /Users/andreas.winschu/projects/star-wars-crawl
+14 error Darwin 15.0.0
+15 error argv "/usr/local/Cellar/node/5.1.1/bin/node" "/usr/local/bin/npm" "start"
+16 error node v5.1.1
+17 error npm  v3.3.12
+18 error code EPIPE
+19 error errno EPIPE
+20 error syscall write
+21 error write EPIPE
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
